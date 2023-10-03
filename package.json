@@ -30,8 +30,7 @@
     "dev": "tsdx watch --localDev",
     "build": "tsdx build",
     "lint": "tsdx lint",
-    "prepare": "tsdx build",
-    "postinstall": "tsdx build"
+    "prepare": "tsdx build"
   },
   "peerDependencies": {
     "react": ">=16",
@@ -47,7 +46,7 @@
     "@types/react-native": "^0.70.6",
     "husky": "^4.2.5",
     "react": "^18.1.0",
-    "react-native-slider": "github:i-interested/react-native-slider",
+    "@react-native-community/slider": "^4.4.3",
     "rollup-plugin-copy-assets": "^2.0.3",
     "tsdx": "^0.13.2",
     "tslib": "^1.11.1",
