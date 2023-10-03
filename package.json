@@ -30,7 +30,8 @@
     "dev": "tsdx watch --localDev",
     "build": "tsdx build",
     "lint": "tsdx lint",
-    "prepare": "tsdx build"
+    "prepare": "tsdx build",
+    "postinstall": "tsdx build"
   },
   "peerDependencies": {
     "react": ">=16",
